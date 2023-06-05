@@ -1,0 +1,108 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Content styles */
+  #about-me-section,
+  #about-me-content,
+  #portfolio,
+  #contact,
+  #resume {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* About Me section styles */
+  #about-me-section h2,
+  #about-me-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #about-me-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio section styles */
+  #portfolio h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio .project {
+    margin-bottom: 20px;
+  }
+  
+  #portfolio .project h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #portfolio .project p {
+    margin-bottom: 5px;
+  }
+  
+  #portfolio .project a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #portfolio .project a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact section styles */
+  #contact h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #contact form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  #contact form label {
+    font-weight: bold;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    padding: 5px;
+  }
+  
+  #contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
